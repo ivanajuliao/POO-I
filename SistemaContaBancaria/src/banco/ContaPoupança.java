@@ -48,7 +48,7 @@ public class ContaPoupança {
        this.saldo -= valor;
    }
    
-   public void imprirSaldo(){
+   public void imprimirSaldo(){
        System.out.println("Prezado, " + this.nomeTitular);
         System.out.println("Saldo: R$" + this.saldo);
    }
