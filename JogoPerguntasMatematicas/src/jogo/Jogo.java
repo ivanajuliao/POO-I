@@ -19,17 +19,20 @@ public class Jogo {
         QuestaoSubitracao novaQuestaoSub = new QuestaoSubitracao();
         QuestaoMultiplicacao novaQuestaoMult = new QuestaoMultiplicacao();
         
-        novaQuestao.criaPergunta();
-        novaQuestao.verificaResposta();
-        novaQuestao.exibirResultado();
+        for(;;){
         
-        novaQuestaoSub.criaPergunta();
-        novaQuestaoSub.verificaResposta();
-        novaQuestaoSub.exibirResultado();
-        
-        novaQuestaoMult.criaPergunta();
-        novaQuestaoMult.verificaResposta();
-        novaQuestaoMult.exibirResultado();
+            novaQuestao.criaPergunta();
+            novaQuestao.verificaResposta();
+            novaQuestao.exibirResultado();
+
+            novaQuestaoSub.criaPergunta();
+            novaQuestaoSub.verificaResposta();
+            novaQuestaoSub.exibirResultado();
+
+            novaQuestaoMult.criaPergunta();
+            novaQuestaoMult.verificaResposta();
+            novaQuestaoMult.exibirResultado();
+        }
     }
     
 }
