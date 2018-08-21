@@ -13,20 +13,23 @@ import javax.swing.JOptionPane;
  * @author 20131bsi0173
  */
 public class QuestaoMultiplicacao {
-    private int operador1 = ThreadLocalRandom.current().nextInt(0,100);
-    private int operador2 = ThreadLocalRandom.current().nextInt(0, 10);
+    private int operador1;
+    private int operador2;
     private int pontos;
     private int resposta;
-    private String respostaS;
-    private boolean resultado = false;
+    private boolean resultado;
         
-    public QuestaoMultiplicacao(){}
+    public QuestaoMultiplicacao(){
+        this.operador1 = ThreadLocalRandom.current().nextInt(0,100);
+        this.operador2 = ThreadLocalRandom.current().nextInt(0, 10);
+        this.resultado = false;
+    }
     
     public void criaPergunta(){
-        this.respostaS = JOptionPane.showInputDialog("Quanto é "+ this.operador1 + " x "+ this.operador2);    
+        String respostaS = JOptionPane.showInputDialog("Quanto é "+ this.operador1 + " x "+ this.operador2);
+        this.resposta = Integer.parseInt(this.respostaS);
     }
     public void verificaResposta(){
-        this.resposta = Integer.parseInt(this.respostaS);
         if( this.operador1 * this.operador2 == this.resposta){
             this.resultado = true;
         }  
