@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 public class QuestaoMultiplicacao {
     private int operador1;
     private int operador2;
-    private int pontos;
+    //private int pontos;
     private int resposta;
     private boolean resultado;
         
