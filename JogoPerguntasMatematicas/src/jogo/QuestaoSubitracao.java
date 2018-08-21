@@ -27,7 +27,7 @@ public class QuestaoSubitracao {
     
     public void criaPergunta(){
         String respostaS = JOptionPane.showInputDialog("Quanto é "+ this.operador1 + " - "+ this.operador2);    
-        this.resposta = Integer.parseInt(this.respostaS);
+        this.resposta = Integer.parseInt(respostaS);
     }
     public void verificaResposta(){
         if( this.operador1 - this.operador2 == this.resposta){
