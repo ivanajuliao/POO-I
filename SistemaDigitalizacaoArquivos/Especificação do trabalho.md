@@ -30,5 +30,4 @@ As vantagens da digitalização de documentos consiste na maior segurança dos d
 
 - [FontAwesomeFX](v8.9)(https://bitbucket.org/Jerady/fontawesomefx): Ferramenta que fornece centenas de ícones. 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem fortemente orientada a objetos, usada por permitir maior portabilidade e por estar mais próxima dos integrantes do grupo de acordo com as ferramentas que o grupo achou necessário fazer uso.
-- [Junit 4](https://junit.org/junit4/): Frammework utilizada para testes unitários das classes.
 - [PostegreSQL](https://www.postgresql.org/) (v42.2.2): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados. A opção se deu pela experiência do grupo com o sistema e com sua robustez (se comparado com ferramentas como o SQLite).
