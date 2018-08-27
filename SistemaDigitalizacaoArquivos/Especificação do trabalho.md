@@ -26,7 +26,7 @@ As vantagens da digitalização de documentos consiste na maior segurança dos d
 ### 5. DIAGRAMA DE CLASSES
 <p align="center"><img src=""></p><br>
 
-### 7. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
+### 6. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
 - [FontAwesomeFX](v8.9)(https://bitbucket.org/Jerady/fontawesomefx): Ferramenta que fornece centenas de ícones. 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem fortemente orientada a objetos, usada por permitir maior portabilidade e por estar mais próxima dos integrantes do grupo de acordo com as ferramentas que o grupo achou necessário fazer uso.
