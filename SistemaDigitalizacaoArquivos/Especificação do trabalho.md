@@ -6,7 +6,6 @@
 - Ivana Amorim Julião
 - Mellyssa Stephanny de Jesus Mendes
 
-
 ### 2. DESCRIÇÃO DO SISTEMA
 <p align="justify">
 Durante muito tempo, a principal forma de compartilhamento e armazenamento de documentos foi em meio físico. A evolução tecnológica permitiu que os processos sejam mais rápidos e eficazes através da digitalização. Com isso, propomos um sistema de Digitalização de Arquivos, visando: segurança, otimização do tempo e produtividade. O Sistema prevê a diminuição da necessidade de arquivos em folhas de papel onde as buscas pelos documentos são extremamente trabalhosas, cansativas e desperdiçam muito tempo.
