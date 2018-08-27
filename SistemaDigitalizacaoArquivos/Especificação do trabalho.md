@@ -20,13 +20,16 @@ O banco de dados do sistema deverá permitir atualização dos documentos quando
 As vantagens da digitalização de documentos consiste na maior segurança dos dados, pois o controle de acesso permite que somente pessoas autorizadas com níveis de acesso de acordo com seu perfil possam acessar os documentos; rapidez na busca, evitando assim perda de tempo; diminuição de espaço físico para armazenamento de documentos; prevenção da perda de documentos devido a deterioração ou acontecimentos tais como: enchentes, incêndios ou até mesmo acidentes banais, como derrubar xícara de café naquele documento importante que estava sobre a mesa ou rasgo acidental. E o mais importante: diminuição do uso de papel, impactando positivamente na redução de produção de papel e seus custos diretos e indiretos.
 </p><br>
 
-### 4. CANVAS(PMC)
+### 4. DIÁRIO DE BORDO
+As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a seguir:[Diário de Bordo](https://drive.google.com/open?id=1fj7jfETy0rTq27n30cRKd07sMNg6FbL94lxB2Jf41N0)
+
+### 5. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
-### 5. DIAGRAMA DE CLASSES
+### 6. DIAGRAMA DE CLASSES
 <p align="center"><img src=""></p><br>
 
-### 6. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
+### 7. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
 - [FontAwesomeFX](v8.9)(https://bitbucket.org/Jerady/fontawesomefx): Ferramenta que fornece centenas de ícones. 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem fortemente orientada a objetos, usada por permitir maior portabilidade e por estar mais próxima dos integrantes do grupo de acordo com as ferramentas que o grupo achou necessário fazer uso.
