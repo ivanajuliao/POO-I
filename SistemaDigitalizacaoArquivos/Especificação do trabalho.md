@@ -21,7 +21,7 @@ As vantagens da digitalização de documentos consiste na maior segurança dos d
 </p><br>
 
 ### 4. CANVAS(PMC)
-<p align="center"><img src=""></p><br>
+<p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
 ### 5. DIAGRAMA DE CLASSES
 <p align="center"><img src=""></p><br>
