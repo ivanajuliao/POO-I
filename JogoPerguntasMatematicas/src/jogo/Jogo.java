@@ -19,7 +19,7 @@ public class Jogo {
         QuestaoSubitracao novaQuestaoSub = new QuestaoSubitracao();
         QuestaoMultiplicacao novaQuestaoMult = new QuestaoMultiplicacao();
         
-        for(;;){
+        for(int i=0; i<30 ;i++){
         
             novaQuestao.criaPergunta();
             novaQuestao.verificaResposta();
