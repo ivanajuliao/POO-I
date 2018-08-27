@@ -21,7 +21,7 @@ As vantagens da digitalização de documentos consiste na maior segurança dos d
 </p><br>
 
 ### 4. DIÁRIO DE BORDO
-As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a seguir:[Diário de Bordo](https://drive.google.com/open?id=1fj7jfETy0rTq27n30cRKd07sMNg6FbL94lxB2Jf41N0)
+As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a seguir: [Diário de Bordo](https://drive.google.com/open?id=1fj7jfETy0rTq27n30cRKd07sMNg6FbL94lxB2Jf41N0)
 
 ### 5. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
