@@ -44,7 +44,7 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/conceitual.png"></p><br>
 
 ### 10. MODELO LÓGICO
-<p align="center"><img src=""></p><br>
+<p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/logico.png"></p><br>
 
 ### 11. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
