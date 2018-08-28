@@ -31,10 +31,22 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 ### 5. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
-### 6. DIAGRAMA DE CLASSES
+### 6. DIAGRAMA DE CASO DE USO
 <p align="center"><img src=""></p><br>
 
-### 7. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
+### 7. DIAGRAMA DE CLASSES
+<p align="center"><img src=""></p><br>
+
+### 8. DIAGRAMA DE SUBSISTEMAS
+<p align="center"><img src=""></p><br>
+
+### 9. MODELO CONCEITUAL
+<p align="center"><img src=""></p><br>
+
+### 10. MODELO LÓGICO
+<p align="center"><img src=""></p><br>
+
+### 11. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
 - [FontAwesomeFX](v8.9)(https://bitbucket.org/Jerady/fontawesomefx): Ferramenta que fornece centenas de ícones. 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem fortemente orientada a objetos, usada por permitir maior portabilidade e por estar mais próxima dos integrantes do grupo de acordo com as ferramentas que o grupo achou necessário fazer uso.
