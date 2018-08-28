@@ -48,7 +48,11 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 
 ### 11. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
-- [FontAwesomeFX](v8.9)(https://bitbucket.org/Jerady/fontawesomefx): Ferramenta que fornece centenas de ícones. 
-- [Java 8](https://www.java.com/pt_BR/download/): Linguagem fortemente orientada a objetos, usada por permitir maior portabilidade e por estar mais próxima dos integrantes do grupo de acordo com as ferramentas que o grupo achou necessário fazer uso.
-- [PostegreSQL](https://www.postgresql.org/) (v42.2.2): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados. A opção se deu pela experiência do grupo com o sistema e com sua robustez (se comparado com ferramentas como o SQLite).
+- [Java 8](https://www.java.com/pt_BR/download/): Linguagem de programação orientada a objetos, usada por permitir maior portabilidade.
+- [PostegreSQL](https://www.postgresql.org/): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados.
+- [FontAwesome](https://fontawesome.com/icons?d=gallery): Ferramenta que fornece centenas de ícones.
+- [GlassFish](https://javaee.github.io/glassfish/download):é destinado à implatação de aplicações web. GlassFish é a implementação de referência para um servidor de aplicativos Java EE.
+
+
+ 
 
