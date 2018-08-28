@@ -38,7 +38,7 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 <p align="center"><img src=""></p><br>
 
 ### 8. DIAGRAMA DE SUBSISTEMAS
-<p align="center"><img src=""></p><br>
+<p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Subsistemas.png"></p><br>
 
 ### 9. MODELO CONCEITUAL
 <p align="center"><img src=""></p><br>
