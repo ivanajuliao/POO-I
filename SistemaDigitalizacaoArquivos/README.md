@@ -32,7 +32,7 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
 ### 6. DIAGRAMA DE CASO DE USO
-<p align="center"><img src=""></p><br>
+<p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Casos%20de%20Uso.png"></p><br>
 
 ### 7. DIAGRAMA DE CLASSES
 <p align="center"><img src=""></p><br>
