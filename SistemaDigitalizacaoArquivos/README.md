@@ -7,9 +7,15 @@
 - Mellyssa Stephanny de Jesus Mendes
 
 ### 2. DESCRIÇÃO DO SISTEMA
-<p align="justify">
-Durante muito tempo, a principal forma de compartilhamento e armazenamento de documentos foi em meio físico. A evolução tecnológica permitiu que os processos sejam mais rápidos e eficazes através da digitalização. Com isso, propomos um sistema de Digitalização de Arquivos, visando: segurança, otimização do tempo e produtividade. O Sistema prevê a diminuição da necessidade de arquivos em folhas de papel onde as buscas pelos documentos são extremamente trabalhosas, cansativas e desperdiçam muito tempo.
-</p><br>
+A Digitalização de Documentos é o processo de conversão de documentos físicos em formato digital. Este processo dinamiza extraordinariamente o acesso e a disseminação das informações entre os funcionários e colaboradores, com a visualização instantânea das imagens de documentos. 
+Os documentos passam por um processo de preparação para que se tornem aptos à digitalização (higienização, retirada de grampos ou qualquer objeto que prejudique o acesso do documento ao scanner). Em seguida são escaneados, tratados e indexados por lote de documentos, de acordo com as especificações  determinadas pelo projeto. Após esse processo, as imagens e dados são armazenados em um software ou em arquivos para melhor organização das imagens. 
+A Digitalização é indicada para empresas que possuem documentos que precisam ser consultados e administrados de forma rápida e organizada.<br/>
+Listamos abaixo as vantagens da digitalização de arquivos:<br/>
+- Facilidade de acesso e de distribuição dos documentos;<br/>
+- Redução de tempo das atividades que requerem a análise de documentos;<br/>
+- Redução de custo com recuperação e duplicação;<br/>
+- Preservação do arquivo físico;<br/>
+- Integração de dados ativos e históricos.<br/>
 
 ### 3. MINIMUNDO
 <p align="justify">
