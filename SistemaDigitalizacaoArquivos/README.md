@@ -7,8 +7,8 @@
 - Mellyssa Stephanny de Jesus Mendes
 
 ### 2. DESCRIÇÃO DO SISTEMA
-A Digitalização de Documentos é o processo de conversão de documentos físicos em formato digital. Este processo dinamiza extraordinariamente o acesso e a disseminação das informações entre os funcionários e colaboradores, com a visualização instantânea das imagens de documentos. 
-Os documentos passam por um processo de preparação para que se tornem aptos à digitalização (higienização, retirada de grampos ou qualquer objeto que prejudique o acesso do documento ao scanner). Em seguida são escaneados, tratados e indexados por lote de documentos, de acordo com as especificações  determinadas pelo projeto. Após esse processo, as imagens e dados são armazenados em um software ou em arquivos para melhor organização das imagens. 
+A Digitalização de Documentos é o processo de conversão de documentos físicos em formato digital. Este processo dinamiza extraordinariamente o acesso e a disseminação das informações entre os funcionários e colaboradores, com a visualização instantânea das imagens de documentos.<br/>
+Os documentos passam por um processo de preparação para que se tornem aptos à digitalização (higienização, retirada de grampos ou qualquer objeto que prejudique o acesso do documento ao scanner). Em seguida são escaneados, tratados e indexados por lote de documentos, de acordo com as especificações  determinadas pelo projeto. Após esse processo, as imagens e dados são armazenados em um software ou em arquivos para melhor organização das imagens.<br/>
 A Digitalização é indicada para empresas que possuem documentos que precisam ser consultados e administrados de forma rápida e organizada.<br/>
 Listamos abaixo as vantagens da digitalização de arquivos:<br/>
 - Facilidade de acesso e de distribuição dos documentos;<br/>
