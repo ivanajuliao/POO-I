@@ -28,25 +28,28 @@ As vantagens da digitalização de documentos consiste na maior segurança dos d
 ### 4. DIÁRIO DE BORDO
 As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a seguir: [Diário de Bordo](https://drive.google.com/open?id=1fj7jfETy0rTq27n30cRKd07sMNg6FbL94lxB2Jf41N0)
 
-### 5. CANVAS(PMC)
+### 5. MAPA MENTAL
+<p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Mapa%20mental.png"></p><br>
+
+### 6. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
-### 6. DIAGRAMA DE CASO DE USO
+### 7. DIAGRAMA DE CASO DE USO
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Casos%20de%20Uso.png"></p><br>
 
-### 7. DIAGRAMA DE CLASSES
+### 8. DIAGRAMA DE CLASSES
 <p align="center"><img src=""></p><br>
 
-### 8. DIAGRAMA DE SUBSISTEMAS
+### 9. DIAGRAMA DE SUBSISTEMAS
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Subsistemas.png"></p><br>
 
-### 9. MODELO CONCEITUAL
+### 10. MODELO CONCEITUAL
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/conceitual.png"></p><br>
 
-### 10. MODELO LÓGICO
+### 11. MODELO LÓGICO
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/logico.png"></p><br>
 
-### 11. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
+### 12. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem de programação orientada a objetos, usada por permitir maior portabilidade.
 - [PostegreSQL](https://www.postgresql.org/): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados.
