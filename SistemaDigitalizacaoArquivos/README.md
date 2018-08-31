@@ -55,6 +55,7 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 - [PostegreSQL](https://www.postgresql.org/): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados.
 - [FontAwesome](https://fontawesome.com/icons?d=gallery): Ferramenta que fornece centenas de ícones.
 - [GlassFish](https://javaee.github.io/glassfish/download):é destinado à implatação de aplicações web. GlassFish é a implementação de referência para um servidor de aplicativos Java EE.
+- [Bootstrap](https://getbootstrap.com/):Bootstrap é um framework front-end que facilita o desenvolvimento web na criação de  sites com tecnologia mobile (responsivo).
 
 
  
