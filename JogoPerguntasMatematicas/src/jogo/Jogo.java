@@ -19,19 +19,12 @@ public class Jogo {
         QuestaoSubitracao novaQuestaoSub = new QuestaoSubitracao();
         QuestaoMultiplicacao novaQuestaoMult = new QuestaoMultiplicacao();
         
+
         for(int i=0; i<30 ; i++){
-        
             novaQuestao.criaPergunta();
-            novaQuestao.verificaResposta();
-            novaQuestao.exibirResultado();
-
             novaQuestaoSub.criaPergunta();
-            novaQuestaoSub.verificaResposta();
-            novaQuestaoSub.exibirResultado();
-
             novaQuestaoMult.criaPergunta();
-            novaQuestaoMult.verificaResposta();
-            novaQuestaoMult.exibirResultado();
+            
         }
     }
     

@@ -5,7 +5,6 @@
  */
 package jogo;
 
-//import java.util.concurrent.ThreadLocalRandom;
 import javax.swing.JOptionPane;
 
 /**
@@ -13,18 +12,10 @@ import javax.swing.JOptionPane;
  * @author 20131bsi0173
  */
 public class QuestaoMultiplicacao extends Questao{
-    //private int operador1;
-    //private int operador2;
-    //private int pontos;
-    //private int resposta;
-   
     
     @Override
     public boolean verificarResposta() {
-        if( this.operador1 * this.operador2 == this.resposta){
-            return true;
-        }  
-        return false;
+        return this.operador1 * this.operador2 == this.resposta;
     }
     
     public void criaPergunta(){

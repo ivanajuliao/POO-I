@@ -5,7 +5,6 @@
  */
 package jogo;
 
-import java.util.concurrent.ThreadLocalRandom;
 import javax.swing.JOptionPane;
 
 /**
@@ -16,10 +15,7 @@ public class QuestaoSubitracao extends Questao{
         
     @Override
     public boolean verificarResposta() {
-        if( this.operador1 - this.operador2 == this.resposta){
-            return true;
-        }    
-        return false;
+        return this.operador1 - this.operador2 == this.resposta;
     }
     
     public void criaPergunta(){
