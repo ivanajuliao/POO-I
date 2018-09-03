@@ -12,35 +12,19 @@ import javax.swing.JOptionPane;
  *
  * @author 20131bsi0173
  */
-public class QuestaoSoma {
-    private int operador1;
-    private int operador2;
-    //private int pontos;
-    private int resposta;
-    private boolean resultado;
-        
-    public QuestaoSoma(){
-        this.operador1 = ThreadLocalRandom.current().nextInt(0,100);
-        this.operador2 = ThreadLocalRandom.current().nextInt(0, 20);
-        this.resultado = false;
-    }
+public class QuestaoSoma extends Questao{
     
-    public void criaPergunta(){
+    
+    @Override
+    public boolean verificarResposta() {
+        if( this.operador1 + this.operador2 == this.resposta){
+            return true;
+        }    
+        return false;
+    }
+     public void criaPergunta(){
         String respostaS = JOptionPane.showInputDialog("Quanto é "+ this.operador1 + " + "+ this.operador2);
         this.resposta = Integer.parseInt(respostaS);
-    }
-    public void verificaResposta(){
-        if( this.operador1 + this.operador2 == this.resposta){
-            this.resultado = true;
-        }
-    }
-    
-    public void exibirResultado(){
-        if(this.resultado){
-            JOptionPane.showMessageDialog(null, "Você acertou!");
-        } else{
-            JOptionPane.showMessageDialog(null, "Você errou");
-        } 
     }
     
 }
