@@ -34,22 +34,25 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 ### 6. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
-### 7. DIAGRAMA DE CASO DE USO
+### 7. PRTÓTIPO DO SISTEMA
+O protótipo do sistema por ser visto através do link a seguir: [Protótipo do Sistema](https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Prot%C3%B3tipo/IMSDA.pdf)
+
+### 8. DIAGRAMA DE CASO DE USO
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Casos%20de%20Uso.png"></p><br>
 
-### 8. DIAGRAMA DE CLASSES
+### 9. DIAGRAMA DE CLASSES
 <p align="center"><img src=""></p><br>
 
-### 9. DIAGRAMA DE SUBSISTEMAS
+### 10. DIAGRAMA DE SUBSISTEMAS
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Subsistemas.png"></p><br>
 
-### 10. MODELO CONCEITUAL
+### 11. MODELO CONCEITUAL
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/conceitual.png"></p><br>
 
-### 11. MODELO LÓGICO
+### 12. MODELO LÓGICO
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/logico.png"></p><br>
 
-### 12. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
+### 13. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem de programação orientada a objetos, usada por permitir maior portabilidade.
 - [PostegreSQL](https://www.postgresql.org/): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados.
