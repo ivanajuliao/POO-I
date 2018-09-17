@@ -26,33 +26,36 @@ As vantagens da digitalização de documentos consiste na maior segurança dos d
 </p><br>
 
 ### 4. DIÁRIO DE BORDO
-As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a seguir: [Diário de Bordo](https://drive.google.com/open?id=1fj7jfETy0rTq27n30cRKd07sMNg6FbL94lxB2Jf41N0)
+As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link: [Diário de Bordo](https://drive.google.com/open?id=1fj7jfETy0rTq27n30cRKd07sMNg6FbL94lxB2Jf41N0)
 
-### 5. MAPA MENTAL
+### 5. KANBAN
+As etapas de desenvolvimento do projeto podem ser acompanhadas através do link: [Quadro Trello](https://trello.com/b/YLmPQAxy/poo-i-2018-02trabalhos)
+
+### 6. MAPA MENTAL
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Mapa%20mental.png"></p><br>
 
-### 6. CANVAS(PMC)
+### 7. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
-### 7. PROTÓTIPO DO SISTEMA
+### 8. PROTÓTIPO DO SISTEMA
 O protótipo do sistema por ser visto através do link a seguir: [Protótipo do Sistema](https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Prot%C3%B3tipo/IMSDA.pdf)
 
-### 8. DIAGRAMA DE CASO DE USO
+### 9. DIAGRAMA DE CASO DE USO
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Casos%20de%20Uso.png"></p><br>
 
-### 9. DIAGRAMA DE CLASSES
+### 10. DIAGRAMA DE CLASSES
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Captura%20de%20tela%202018-09-17%2003.47.22.png"></p><br>
 
-### 10. DIAGRAMA DE SUBSISTEMAS
+### 11. DIAGRAMA DE SUBSISTEMAS
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Subsistemas.png"></p><br>
 
-### 11. MODELO CONCEITUAL
+### 12. MODELO CONCEITUAL
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/conceitual.png"></p><br>
 
-### 12. MODELO LÓGICO
+### 13. MODELO LÓGICO
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/logico.png"></p><br>
 
-### 13. DESCRIÇÃO DA TECNOLOGIA UTILIZADA
+### 14. DESCRIÇÃO DAS TECNOLOGIAS UTILIZADAS
 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem de programação orientada a objetos, usada por permitir maior portabilidade.
 - [PostegreSQL](https://www.postgresql.org/): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados.
