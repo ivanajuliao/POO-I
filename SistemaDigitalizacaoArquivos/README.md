@@ -34,7 +34,7 @@ As atividades desenvolvidas pelo grupo podem ser acompanhadas através do link a
 ### 6. CANVAS(PMC)
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Canvas.png"></p><br>
 
-### 7. PRTÓTIPO DO SISTEMA
+### 7. PROTÓTIPO DO SISTEMA
 O protótipo do sistema por ser visto através do link a seguir: [Protótipo do Sistema](https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Prot%C3%B3tipo/IMSDA.pdf)
 
 ### 8. DIAGRAMA DE CASO DE USO
@@ -57,8 +57,8 @@ O protótipo do sistema por ser visto através do link a seguir: [Protótipo do 
 - [Java 8](https://www.java.com/pt_BR/download/): Linguagem de programação orientada a objetos, usada por permitir maior portabilidade.
 - [PostegreSQL](https://www.postgresql.org/): Sistema gerenciador de banco de dados utilizado para concretizar a persistência dos dados.
 - [FontAwesome](https://fontawesome.com/icons?d=gallery): Ferramenta que fornece centenas de ícones.
-- [GlassFish](https://javaee.github.io/glassfish/download):é destinado à implatação de aplicações web. GlassFish é a implementação de referência para um servidor de aplicativos Java EE.
-- [Bootstrap](https://getbootstrap.com/):Bootstrap é um framework front-end que facilita o desenvolvimento web na criação de  sites com tecnologia mobile (responsivo).
+- [GlassFish](https://javaee.github.io/glassfish/download): é destinado à implatação de aplicações web. GlassFish é a implementação de referência para um servidor de aplicativos Java EE.
+- [Bootstrap](https://getbootstrap.com/): Bootstrap é um framework front-end que facilita o desenvolvimento web na criação de  sites com tecnologia mobile (responsivo).
 
 
  
