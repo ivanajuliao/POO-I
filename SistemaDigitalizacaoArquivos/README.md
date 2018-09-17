@@ -41,7 +41,7 @@ O protótipo do sistema por ser visto através do link a seguir: [Protótipo do 
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Casos%20de%20Uso.png"></p><br>
 
 ### 9. DIAGRAMA DE CLASSES
-<p align="center"><img src=""></p><br>
+<p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Captura%20de%20tela%202018-09-17%2003.47.22.png"></p><br>
 
 ### 10. DIAGRAMA DE SUBSISTEMAS
 <p align="center"><img src="https://github.com/ivanajuliao/POO-I/blob/master/SistemaDigitalizacaoArquivos/Imagens/Diagrama%20de%20Subsistemas.png"></p><br>
