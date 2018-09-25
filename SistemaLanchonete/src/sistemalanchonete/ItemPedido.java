@@ -30,8 +30,10 @@ public class ItemPedido {
         this.valorParcial = valorParcial;
     }
     
-    public void addItem(TipoHanburger itemComida, Bebida itemBebida) {
+    public void addItemComida(TipoHanburger itemComida) {
         comida.add(itemComida);
+    }
+     public void addItemBebida(Bebida itemBebida) {
         bebida.add(itemBebida);
     }
 }
