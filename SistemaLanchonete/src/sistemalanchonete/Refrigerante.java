@@ -11,8 +11,10 @@ package sistemalanchonete;
  */
 public class Refrigerante extends Bebida{
     
-    public Refrigerante(int cod, float valor) {
+    private String nome;
+    public Refrigerante(int cod, double valor, String nome) {
         super(cod, valor);
+        this.nome = nome;
     }
     
 }

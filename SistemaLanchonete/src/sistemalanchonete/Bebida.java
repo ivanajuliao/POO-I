@@ -11,9 +11,9 @@ package sistemalanchonete;
  */
 public class Bebida {
     private int cod;
-    private float valor;
+    private double valor;
 
-    public Bebida(int cod, float valor) {
+    public Bebida(int cod, double valor) {
         this.cod = cod;
         this.valor = valor;
     }
@@ -26,7 +26,7 @@ public class Bebida {
         this.cod = cod;
     }
 
-    public float getValor() {
+    public double getValor() {
         return valor;
     }
 

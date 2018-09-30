@@ -26,7 +26,7 @@ public class Main {
         Suco novoSuco = new Suco(002, 5.00);
         novoSuco.addSabores(sabor);
         
-        Refrigerante novoRefri = new Refrigerante(003, 9.00);
+        Refrigerante novoRefri = new Refrigerante(003, 9.00, "Refri");
         
         item1.addItemComida(novoBurguer);
         item1.addItemBebida(novoRefri);

@@ -15,7 +15,7 @@ public class Suco extends Bebida{
     
     private ArrayList<TipoSuco> tipoSuco;
      
-    public Suco(int cod, float valor,ArrayList<Suco> tipoSuco) {
+    public Suco(int cod, double valor) {
         super(cod, valor);
         this.tipoSuco = new ArrayList<TipoSuco>();
        
@@ -23,5 +23,12 @@ public class Suco extends Bebida{
     
     public void addSabores(TipoSuco sabor ) {
         tipoSuco.add(sabor);
+    }
+    
+    public String getTipoSuco() {
+        for (TipoSuco sabor : tipoSuco) {
+            return sabor.getSabor();
+        }
+        return "";
     }
 }

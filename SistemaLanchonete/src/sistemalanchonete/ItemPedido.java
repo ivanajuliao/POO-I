@@ -12,28 +12,42 @@ import java.util.ArrayList;
  * @author 20122BSI0379
  */
 public class ItemPedido {
-    private float valorParcial;
-    private ArrayList<TipoHanburger> comida;
+    private double valorParcial;
+    private ArrayList<Hamburguer> comida;
     private ArrayList<Bebida> bebida;
 
-    public ItemPedido(float valorParcial) {
-        this.comida = new ArrayList<TipoHanburger>();
+    public ItemPedido(double valorParcial) {
+        this.comida = new ArrayList<Hamburguer>();
         this.bebida = new ArrayList<Bebida>();
         this.valorParcial = valorParcial;
     }
 
-    public float getValorParcial() {
+    public double getValorParcial() {
         return valorParcial;
     }
 
-    public void setValorParcial(float valorParcial) {
+    public void setValorParcial(double valorParcial) {
         this.valorParcial = valorParcial;
     }
     
-    public void addItemComida(TipoHanburger itemComida) {
+    public void addItemComida(Hamburguer itemComida) {
         comida.add(itemComida);
     }
      public void addItemBebida(Bebida itemBebida) {
         bebida.add(itemBebida);
+    }
+     
+    public int getItemBebida() {
+        for (Bebida itemBebida : bebida) {
+            return itemBebida.getCod();
+        }
+        return -1;
+    }
+    
+    public String getItemComida() {
+        for (Hamburguer hanburger : comida) {
+            return hanburger.getNome();
+        }
+        return "";
     }
 }

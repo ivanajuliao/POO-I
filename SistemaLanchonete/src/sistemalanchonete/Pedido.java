@@ -12,24 +12,38 @@ import java.util.ArrayList;
  * @author 20122BSI0379
  */
 public class Pedido {
-    private float valorTotal;
+    private double valorTotal;
     private ArrayList<ItemPedido> itens;
 
-    public Pedido(float valorTotal) {
+    public Pedido(double valorTotal) {
         this.itens = new ArrayList<ItemPedido>();
         this.valorTotal = valorTotal;
     }
     
-    public float getValorTotal() {
+    public double getValorTotal() {
+        for (ItemPedido item : itens) {
+            valorTotal += item.getValorParcial();
+        }
         return valorTotal;
     }
 
-    public void setValorTotal(float valorTotal) {
+    public void setValorTotal(double valorTotal) {
         this.valorTotal = valorTotal;
     }
     
     public void adicionarItemPedido(ItemPedido itemPedido) {
         itens.add(itemPedido);
+        
+    }
+
+    public void listarPedidos() {
+        System.out.println("Valor Total: RS " + getValorTotal());
+        for (ItemPedido item : itens) {
+            System.out.println("CodBebida: " + item.getItemBebida());
+            System.out.println("Comida: " + item.getItemComida());
+            
+        }
+        
         
     }
     

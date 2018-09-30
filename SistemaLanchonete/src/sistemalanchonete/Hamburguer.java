@@ -9,12 +9,12 @@ package sistemalanchonete;
  *
  * @author 20122BSI0379
  */
-public class TipoHanburger {
+public class Hamburguer {
     private int cod;
     private String nome;
-    private float valor;
+    private double valor;
 
-    public TipoHanburger(int cod, String nome, float valor) {
+    public Hamburguer(int cod, String nome, double valor) {
         this.cod = cod;
         this.nome = nome;
         this.valor = valor;
@@ -37,7 +37,7 @@ public class TipoHanburger {
         this.nome = nome;
     }
 
-    public float getValor() {
+    public double getValor() {
         return valor;
     }
 
