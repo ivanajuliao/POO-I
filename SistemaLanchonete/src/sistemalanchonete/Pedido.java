@@ -5,13 +5,14 @@
  */
 package sistemalanchonete;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  * @author 20122BSI0379
  */
-public class Pedido {
+public class Pedido implements Serializable{
     private double valorTotal;
     private ArrayList<ItemPedido> itens;
 
@@ -38,9 +39,9 @@ public class Pedido {
 
     public void listarPedidos() {
         System.out.println("Valor Total: RS " + getValorTotal());
-        for (ItemPedido item : itens) {
-            System.out.println("CodBebida: " + item.getItemBebida());
-            System.out.println("Comida: " + item.getItemComida());
+        for (ItemPedido item : itens) {                       
+            System.out.println("CodBebida: " + item.getItemBebidaNome());
+            System.out.println("Comida: " + item.getItemComidaNome());
             
         }
         

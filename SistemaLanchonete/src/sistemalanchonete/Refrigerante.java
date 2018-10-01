@@ -16,5 +16,13 @@ public class Refrigerante extends Bebida{
         super(cod, valor);
         this.nome = nome;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
     
 }

@@ -5,6 +5,9 @@
  */
 package sistemalanchonete;
 
+import java.io.IOException;
+import persistencia.PersistenciaSerializada;
+
 /**
  *
  * @author 20122BSI0379
@@ -14,7 +17,7 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         // TODO code application logic here
         Pedido novoPedido = new Pedido(0);
         ItemPedido item1 = new ItemPedido(0);
@@ -38,8 +41,14 @@ public class Main {
         novoPedido.adicionarItemPedido(item1);
         novoPedido.adicionarItemPedido(item2);
         
-        novoPedido.listarPedidos();
+        //novoPedido.listarPedidos();
         
+        persistencia.PersistenciaSerializada persistencia = new PersistenciaSerializada();
+        persistencia.salvarObjeto(novoPedido);
+        
+        
+        Pedido pedidoRecuperado = (Pedido) persistencia.recuperarObjeto(Pedido.class);
+        pedidoRecuperado.listarPedidos();
     }
     
 }

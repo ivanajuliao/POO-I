@@ -5,13 +5,14 @@
  */
 package sistemalanchonete;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  * @author 20122BSI0379
  */
-public class ItemPedido {
+public class ItemPedido implements Serializable{
     private double valorParcial;
     private ArrayList<Hamburguer> comida;
     private ArrayList<Bebida> bebida;
@@ -37,17 +38,28 @@ public class ItemPedido {
         bebida.add(itemBebida);
     }
      
-    public int getItemBebida() {
+    public String getItemBebidaNome() {
         for (Bebida itemBebida : bebida) {
-            return itemBebida.getCod();
+            if(itemBebida instanceof Refrigerante){
+                Refrigerante refri = (Refrigerante) itemBebida;
+                return refri.getNome();
+            }else{
+                Suco suco = (Suco) itemBebida;
+                return suco.getTipoSuco();
+            }
         }
-        return -1;
+        return "";
+        
     }
     
-    public String getItemComida() {
+    public String getItemComidaNome() {
         for (Hamburguer hanburger : comida) {
             return hanburger.getNome();
         }
         return "";
+    }
+
+    String getItemComida() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
