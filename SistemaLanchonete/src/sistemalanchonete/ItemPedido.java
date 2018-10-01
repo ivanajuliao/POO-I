@@ -39,27 +39,31 @@ public class ItemPedido implements Serializable{
     }
      
     public String getItemBebidaNome() {
-        for (Bebida itemBebida : bebida) {
-            if(itemBebida instanceof Refrigerante){
-                Refrigerante refri = (Refrigerante) itemBebida;
-                return refri.getNome();
-            }else{
-                Suco suco = (Suco) itemBebida;
-                return suco.getTipoSuco();
+        if (bebida.isEmpty()) {
+            return null;
+        }else{
+            for (Bebida itemBebida : bebida) {
+                if(itemBebida instanceof Refrigerante){
+                    Refrigerante refri = (Refrigerante) itemBebida;
+                    return refri.getNome();
+                }else{
+                    Suco suco = (Suco) itemBebida;
+                    return "Suco de " + suco.getTipoSuco();
+                }
             }
         }
-        return "";
-        
+        return null;
     }
     
     public String getItemComidaNome() {
-        for (Hamburguer hanburger : comida) {
-            return hanburger.getNome();
+        if (comida.isEmpty()) {
+            return null;
+        }else{
+            for (Hamburguer hanburger : comida) {
+                return hanburger.getNome();
+            } 
         }
-        return "";
+        return null;
     }
 
-    String getItemComida() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }

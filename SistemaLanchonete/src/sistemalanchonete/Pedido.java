@@ -39,8 +39,8 @@ public class Pedido implements Serializable{
 
     public void listarPedidos() {
         System.out.println("Valor Total: RS " + getValorTotal());
-        for (ItemPedido item : itens) {                       
-            System.out.println("CodBebida: " + item.getItemBebidaNome());
+        for (ItemPedido item : itens) {  
+            System.out.println("Bebida: " + item.getItemBebidaNome());
             System.out.println("Comida: " + item.getItemComidaNome());
             
         }

@@ -5,13 +5,14 @@
  */
 package sistemalanchonete;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  * @author 20122BSI0379
  */
-public class Suco extends Bebida{
+public class Suco extends Bebida implements Serializable{
     
     private ArrayList<TipoSuco> tipoSuco;
      

@@ -5,11 +5,13 @@
  */
 package sistemalanchonete;
 
+import java.io.Serializable;
+
 /**
  *
  * @author 20122BSI0379
  */
-public class Bebida {
+public class Bebida implements Serializable{
     private int cod;
     private double valor;
 

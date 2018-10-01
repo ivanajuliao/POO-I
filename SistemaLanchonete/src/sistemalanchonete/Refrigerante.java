@@ -5,11 +5,13 @@
  */
 package sistemalanchonete;
 
+import java.io.Serializable;
+
 /**
  *
  * @author 20122BSI0379
  */
-public class Refrigerante extends Bebida{
+public class Refrigerante extends Bebida implements Serializable{
     
     private String nome;
     public Refrigerante(int cod, double valor, String nome) {
