@@ -7,6 +7,7 @@ package persistencia;
 
 import java.io.IOException;
 import modelo.Aluno;
+import modelo.Curso;
 
 /**
  *
@@ -14,13 +15,32 @@ import modelo.Aluno;
  */
 public class AlunoPersistencia {
     persistencia.PersistenciaSerializada persistencia = new PersistenciaSerializada();
+    modelo.Aluno aluno;
     
     public void salvarAlunoSerializado(Aluno aluno) throws IOException {
-        persistencia.salvarObjeto(aluno);
+        this.persistencia.salvarObjeto(aluno);
     }
     
     public Aluno recuperarAlunoSerializado() throws IOException, ClassNotFoundException {
-        Aluno alunoRecuperado = (Aluno) persistencia.recuperarObjeto(Aluno.class);
+        Aluno alunoRecuperado = (Aluno) this.persistencia.recuperarObjeto(Aluno.class);
         return alunoRecuperado;
+    }
+    
+    public void alterarAluno(String nome, String matricula, Curso curso) {
+        this.aluno.setNome(nome);
+        this.aluno.setMatricula(matricula);
+        this.aluno.setCurso(curso);
+        
+    }
+    
+    public void listarAluno() {
+        System.out.println("Nome: " + this.aluno.getNome());
+        System.out.println("Matrícula: " + this.aluno.getMatricula());
+        System.out.println("Curso: " + this.aluno.getCurso());
+        
+    }
+    
+    public void excluirAluno() {
+        
     }
 }

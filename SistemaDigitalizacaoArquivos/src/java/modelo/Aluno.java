@@ -44,22 +44,5 @@ public class Aluno {
     public void setCurso(Curso curso) {
         this.curso = curso;
     }
-    
-    public void alterarAluno(String nome, String matricula, Curso curso) {
-        setNome(nome);
-        setMatricula(matricula);
-        setCurso(curso);
-    }
-    
-    public void visualizarAluno() {
-        System.out.println("Nome: " + getNome());
-        System.out.println("Matrícula" + getMatricula());
-        System.out.println("Curso:" + getCurso());
-        
-    }
-    
-    public void excluirAluno() {
-        
-    }
  
 }
