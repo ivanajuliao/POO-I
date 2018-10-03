@@ -35,18 +35,5 @@ public class Curso {
         this.nome = nome;
     }
     
-     public void alterarCurso(String nome, int codCurso) {
-        setNome(nome);
-        setCodCurso(codCurso);
-    }
     
-    public void visualizarCurso() {
-        System.out.println("Curso: " + getNome());
-        System.out.println("Código:" + getCodCurso());
-        
-    }
-    
-    public void excluirCurso() {
-        
-    }
 }

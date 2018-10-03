@@ -6,6 +6,7 @@
 package controle;
 
 import java.io.IOException;
+import java.io.Serializable;
 import modelo.Aluno;
 import modelo.Curso;
 
@@ -13,7 +14,7 @@ import modelo.Curso;
  *
  * @author 20131bsi0173
  */
-public class AlunoPersistencia {
+public class AlunoControle implements Serializable{
     controle.PersistenciaSerializada persistencia = new PersistenciaSerializada();
     modelo.Aluno aluno;
     
