@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controle;
+package persistencia.Serializado;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -14,8 +14,8 @@ import modelo.Curso;
  *
  * @author 20131bsi0173
  */
-public class AlunoControle implements Serializable{
-    controle.PersistenciaSerializada persistencia = new PersistenciaSerializada();
+public class AlunoSerializado implements Serializable{
+    persistencia.Serializado.PersistenciaSerializada persistencia = new PersistenciaSerializada();
     modelo.Aluno aluno;
     
     public void salvarAlunoSerializado(Aluno aluno) throws IOException {
