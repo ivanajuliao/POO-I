@@ -11,10 +11,10 @@ public class Main {
         CalculaMedia media = new CalculaMedia();
         CalculaMediana mediana = new CalculaMediana();
 
-        //complete o código para chamar o método calcula para a média        
-        calcula(media);                    
+        //complete o código para chamar o método calcula para a média           
+        System.out.println("Media: " + calcula(media));
         //complete o código para chamar o método calcula para a mediana        
-        calcula(mediana);                    
+        System.out.println("Mediana: " + calcula(mediana));                    
     }    
     public static double calcula(ICalcula  operacao){        
       List<Integer> lista = new ArrayList();        
