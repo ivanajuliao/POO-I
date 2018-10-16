@@ -16,7 +16,7 @@ import modelo.Curso;
  */
 public class AlunoSerializado implements Serializable{
     persistencia.Serializado.PersistenciaSerializada persistencia = new PersistenciaSerializada();
-    modelo.Aluno aluno;
+    Aluno aluno;
     
     public void salvarAlunoSerializado(Aluno aluno) throws IOException {
         this.persistencia.salvarObjeto(aluno);
