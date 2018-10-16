@@ -17,6 +17,13 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        Curso curso1 = new Curso(001, "Sistemas de Informação");
+        Curso curso2 = new Curso(002, "Engenharia de Controle e Automação");
+        
+//        CPF cpf1 = new CPF(11111,"CPF", "Jane Doe", ), 021);;
+        
+        
+        
         
     }
     

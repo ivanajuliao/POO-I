@@ -34,10 +34,11 @@ public class DocumentoSerializado implements Serializable{
         
     }
     
-    public void listarDocumento() {
-        System.out.println("Nome Titular: " + this.documento.getNomeTitular());
-        System.out.println("Tipo de documento: " + this.documento.getTipoDocumento());
-        System.out.println("Data de Nascimento: " + this.documento.getDataNasc());
+    public void listarDocumento(Documento documento) {
+        System.out.println("Nome Titular: " + documento.getNomeTitular());
+        System.out.println("Tipo de documento: " + documento.getTipoDocumento());
+        System.out.println("Data de Nascimento: " + documento.getDataNasc());
+       
         
     }
     
