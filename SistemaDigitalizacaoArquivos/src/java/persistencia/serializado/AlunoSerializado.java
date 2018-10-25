@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package persistencia.Serializado;
+package persistencia.serializado;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -20,11 +20,11 @@ import modelo.TituloEleitor;
  * @author 20131bsi0173
  */
 public class AlunoSerializado implements Serializable{
-    persistencia.Serializado.PersistenciaSerializada persistencia = new PersistenciaSerializada();
-    persistencia.Serializado.DocumentoSerializado docSerial = new DocumentoSerializado();
-    persistencia.Serializado.RGSerializado rgSerial = new RGSerializado();
-    persistencia.Serializado.CPFSerializado cpfSerial = new CPFSerializado();
-    persistencia.Serializado.TituloEleitorSerializado tituloSerial = new TituloEleitorSerializado();
+    persistencia.serializado.PersistenciaSerializada persistencia = new PersistenciaSerializada();
+    persistencia.serializado.DocumentoSerializado docSerial = new DocumentoSerializado();
+    persistencia.serializado.RGSerializado rgSerial = new RGSerializado();
+    persistencia.serializado.CPFSerializado cpfSerial = new CPFSerializado();
+    persistencia.serializado.TituloEleitorSerializado tituloSerial = new TituloEleitorSerializado();
     Aluno aluno;
     
     public void salvarAlunoSerializado(Aluno aluno) throws IOException {
