@@ -31,9 +31,9 @@ public class CursoSerializado implements Serializable{
         this.curso.setCodCurso(codCurso);
     }
     
-    public void listarCurso() {
-        System.out.println("Curso: " + this.curso.getNome());
-        System.out.println("Código:" + this.curso.getCodCurso());
+    public void listarCurso(Curso curso) {
+        System.out.println("Curso: " + curso.getNome());
+        System.out.println("Código:" + curso.getCodCurso());
         
     }
     
