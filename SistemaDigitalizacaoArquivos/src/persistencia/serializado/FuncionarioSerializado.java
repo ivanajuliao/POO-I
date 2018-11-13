@@ -16,6 +16,7 @@ import modelo.Setor;
  */
 public class FuncionarioSerializado implements Serializable{
     persistencia.serializado.PersistenciaSerializada persistencia = new PersistenciaSerializada();
+    persistencia.serializado.SetorSerializado setorSerial = new SetorSerializado();
     Funcionario funcionario;
     
      public void salvarFuncionarioSerializado(Funcionario funcionario) throws IOException {
@@ -34,10 +35,10 @@ public class FuncionarioSerializado implements Serializable{
         
     }
     
-    public void listarFuncionario() {
-        System.out.println("Nome: " + this.funcionario.getNome());
-        System.out.println("Siape: " + this.funcionario.getSiape());
-        System.out.println("Setor: " + this.funcionario.getSetor());
+    public void listarFuncionario(Funcionario funcionario) {
+        System.out.println("Nome: " + funcionario.getNome());
+        System.out.println("Siape: " + funcionario.getSiape());
+        this.setorSerial.listarSetor(funcionario.getSetor());
         
     }
     
