@@ -23,11 +23,11 @@ public class ItemPedido implements Serializable{
         this.valorParcial = valorParcial;
     }
 
-    public double getValorParcial() {
+    public double getValorItem() {
         return valorParcial;
     }
 
-    public void setValorParcial(double valorParcial) {
+    public void setValorItem(double valorParcial) {
         this.valorParcial = valorParcial;
     }
     

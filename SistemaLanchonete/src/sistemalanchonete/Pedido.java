@@ -16,20 +16,16 @@ public class Pedido implements Serializable{
     private double valorTotal;
     private ArrayList<ItemPedido> itens;
 
-    public Pedido(double valorTotal) {
+    public Pedido() {
         this.itens = new ArrayList<ItemPedido>();
         this.valorTotal = valorTotal;
     }
     
-    public double getValorTotal() {
+    public double calculaValorTotal() {
         for (ItemPedido item : itens) {
-            valorTotal += item.getValorParcial();
+            valorTotal += item.getValorItem();
         }
         return valorTotal;
-    }
-
-    public void setValorTotal(double valorTotal) {
-        this.valorTotal = valorTotal;
     }
     
     public void adicionarItemPedido(ItemPedido itemPedido) {
@@ -38,7 +34,7 @@ public class Pedido implements Serializable{
     }
 
     public void listarPedidos() {
-        System.out.println("Valor Total: RS " + getValorTotal());
+        System.out.println("Valor Total: RS " + calculaValorTotal());
         for (ItemPedido item : itens) {  
             System.out.println("Bebida: " + item.getItemBebidaNome());
             System.out.println("Comida: " + item.getItemComidaNome());

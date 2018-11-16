@@ -19,7 +19,7 @@ public class Main {
      */
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         // TODO code application logic here
-        Pedido novoPedido = new Pedido(0);
+        Pedido novoPedido = new Pedido();
         ItemPedido item1 = new ItemPedido(0);
         ItemPedido item2 = new ItemPedido(0);
 
@@ -33,10 +33,10 @@ public class Main {
         
         item1.addItemComida(novoBurguer);
         item1.addItemBebida(novoRefri);
-        item1.setValorParcial(novoBurguer.getValor()+ novoRefri.getValor());
+        item1.setValorItem(novoBurguer.getValor()+ novoRefri.getValor());
         
         item2.addItemBebida(novoSuco);
-        item2.setValorParcial(novoSuco.getValor());
+        item2.setValorItem(novoSuco.getValor());
         
         novoPedido.adicionarItemPedido(item1);
         novoPedido.adicionarItemPedido(item2);
