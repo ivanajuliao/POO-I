@@ -44,12 +44,12 @@ public class AlunoSerializado implements Serializable{
         
     }
     
-    public void listarAluno() {
-        System.out.println("Nome: " + this.aluno.getNome());
-        System.out.println("Matrícula: " + this.aluno.getMatricula());
-        System.out.println("Curso: " + this.aluno.getCurso());
+    public void listarAluno(Aluno aluno) {
+        System.out.println("Nome: " + aluno.getNome());
+        System.out.println("Matrícula: " + aluno.getMatricula());
+        System.out.println("Curso: " + aluno.getCurso());
         System.out.println("Documentos: ");
-        for (Documento doc : this.aluno.getArrayDocumento()) {
+        for (Documento doc : aluno.getArrayDocumento()) {
             this.docSerial.listarDocumento(doc);
             if (doc instanceof RG) {
                 this.rgSerial.listarRG((RG) doc);

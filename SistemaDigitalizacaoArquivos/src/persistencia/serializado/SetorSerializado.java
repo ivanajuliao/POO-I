@@ -34,10 +34,10 @@ public class SetorSerializado implements Serializable{
         this.setor.setCoordenador(coordenador);
     }
     
-    public void visualizarSetor() {
-        System.out.println("Setor: " + this.setor.getNomeSetor());
-        System.out.println("Código:" + this.setor.getCodSetor());
-        System.out.println("Coordenador:"+ this.setor.getCoordenador());
+    public void listarSetor(Setor setor) {
+        System.out.println("Setor: " + setor.getNomeSetor());
+        System.out.println("Código:" + setor.getCodSetor());
+        System.out.println("Coordenador:"+ setor.getCoordenador());
         
     }
     
