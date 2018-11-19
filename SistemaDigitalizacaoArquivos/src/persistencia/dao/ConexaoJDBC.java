@@ -23,13 +23,12 @@ public class ConexaoJDBC {
     /**
      * Connect to the nomeBD database
      *
-     * @param nomeBD
      * @return the Connection object
      */
-    public static synchronized Connection getInstance(String nomeBD) {
+    public static synchronized Connection getInstance() {
         // SQLite connection string
         if( instance == null){
-            String url = "jdbc:sqlite:..\\SistemaDigitalizacaoArquivos\\Banco de Dados\\" + nomeBD;
+            String url = "jdbc:sqlite:..\\SistemaDigitalizacaoArquivos\\Banco de Dados\\imsda.db";
              try {
                 Connection c = null;
                 c = DriverManager.getConnection(url);

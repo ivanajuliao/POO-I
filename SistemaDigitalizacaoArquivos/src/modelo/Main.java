@@ -26,7 +26,7 @@ public class Main {
 //        CPF cpf1 = new CPF(11111,"CPF", "Jane Doe", ), 021);;
         
         ConexaoJDBC con = new ConexaoJDBC();
-        Connection c  = con.getInstance("imsda.db");
+        Connection c  = con.getInstance();
         
         
     }
