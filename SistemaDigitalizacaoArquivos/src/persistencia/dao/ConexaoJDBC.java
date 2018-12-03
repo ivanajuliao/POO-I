@@ -15,10 +15,6 @@ import java.sql.SQLException;
  */
 public class ConexaoJDBC {
     private static Connection instance = null; 
-
-    public ConexaoJDBC() {
-    }
-    
     
     /**
      * Connect to the nomeBD database

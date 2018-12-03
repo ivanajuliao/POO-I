@@ -42,7 +42,4 @@ public class FuncionarioSerializado implements Serializable{
         
     }
     
-    public void excluirFuncionario() {
-        
-    }
 }

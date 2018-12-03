@@ -47,8 +47,5 @@ public class TituloEleitorSerializado implements Serializable{
         
     }
     
-    public void excluirTituloEleitor() {
-        
-    }
     
 }

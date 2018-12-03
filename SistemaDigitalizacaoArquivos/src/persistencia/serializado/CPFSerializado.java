@@ -38,7 +38,4 @@ public class CPFSerializado implements Serializable{
         
     }
     
-    public void excluirCPF() {
-        
-    }
 }

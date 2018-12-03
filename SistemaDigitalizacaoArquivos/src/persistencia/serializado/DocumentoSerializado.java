@@ -42,7 +42,4 @@ public class DocumentoSerializado implements Serializable{
         
     }
     
-    public void excluirDocumento() {
-        
-    }
 }

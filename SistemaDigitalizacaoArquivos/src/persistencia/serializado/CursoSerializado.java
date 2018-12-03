@@ -37,8 +37,4 @@ public class CursoSerializado implements Serializable{
         
     }
     
-    public void excluirCurso() {
-        
-    }
-    
 }

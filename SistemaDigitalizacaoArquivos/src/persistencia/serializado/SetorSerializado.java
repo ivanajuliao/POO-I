@@ -41,8 +41,6 @@ public class SetorSerializado implements Serializable{
         
     }
     
-    public void excluirSetor() {
-        
-    }
+    
 }
 

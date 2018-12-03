@@ -57,14 +57,8 @@ public class AlunoSerializado implements Serializable{
                 this.cpfSerial.listarCPF((CPF) doc);
             }else{
                this.tituloSerial.listarTituloEleitor((TituloEleitor) doc);
-            }
-            
-            
-        }
-        
+            }   
+        }     
     }
-    
-    public void excluirAluno() {
-        
-    }
+   
 }

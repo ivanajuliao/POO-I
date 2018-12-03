@@ -17,7 +17,7 @@ import modelo.RG;
  */
 public class RGSerializado implements Serializable{
     persistencia.serializado.PersistenciaSerializada persistencia = new PersistenciaSerializada();
-    RG rg;
+    RG rg ;
     
      public void salvarRGSerializado(RG rg) throws IOException {
         this.persistencia.salvarObjeto(rg);
@@ -52,7 +52,4 @@ public class RGSerializado implements Serializable{
         
     }
     
-    public void excluirRG() {
-        
-    }
 }
