@@ -5,8 +5,9 @@
  */
 package modelo;
 
-import java.sql.Connection;
-import persistencia.dao.ConexaoJDBC;
+import java.util.Date;
+import persistencia.dao.CPFDAO;
+import persistencia.dao.IBasePersistenciaDao;
 
 /**
  *
@@ -23,10 +24,16 @@ public class Main {
         Curso curso1 = new Curso(001, "Sistemas de Informação");
         Curso curso2 = new Curso(002, "Engenharia de Controle e Automação");
         
-//        CPF cpf1 = new CPF(11111,"CPF", "Jane Doe", ), 021);;
+        Documento docCpf = new Documento("cpf", "Benicio Kaue Galvao", new Date(1996,10,14), 0);
+        CPF cpf1 = new CPF(1111111111, docCpf.getTipoDocumento(),docCpf.getNomeTitular(),docCpf.getDataNasc(),docCpf.getCodDocumento());
         
-        ConexaoJDBC con = new ConexaoJDBC();
-        Connection c  = con.getInstance();
+//        ConexaoJDBC con = new ConexaoJDBC();
+//        Connection c  = con.getInstance();
+        
+        CPFDAO cpfDAO = new CPFDAO();
+        cpfDAO.criarTabela();
+        cpfDAO.salvar(cpf1);
+        
         
         
     }

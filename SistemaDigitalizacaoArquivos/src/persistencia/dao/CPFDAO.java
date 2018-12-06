@@ -9,7 +9,9 @@ import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
+import modelo.CPF;
 
 /**
  *
@@ -17,34 +19,46 @@ import java.util.List;
  */
 
 public class CPFDAO implements Serializable, IBasePersistenciaDao{
-    
+//    ConexaoJDBC con = new ConexaoJDBC();
+
     /**
      *Cria uma nova tabela no banco de dados
      */
     public synchronized void criarTabela(){
-        ConexaoJDBC con = new ConexaoJDBC();
-        String sql = "create table CPF(\n"
-                + "id int primary key not null,\n"//Autoincrement
-                + "nome varchar(100),\n"
-                + "dataNasc date,\n"
-                + "codDocumento integer,\n"
+  
+        String sql = "CREATE TABLE IF NOT EXISTS CPF(\n"
+                + "id integer PRIMARY KEY AUTOINCREMENT,\n"//Autoincrement
+//                + "codDocumento integer,\n"
                 + "numCPF integer\n"
                 + ");";
         
-           try (Connection c = con.getInstance();
-                PreparedStatement stmt = c.prepareStatement(sql)) {
+           try (Connection c = ConexaoJDBC.getInstance();
+                Statement stmt = c.createStatement()) {
             // create a new table
             stmt.execute(sql);
             stmt.close();
             c.close();
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getClass().getName() + ": " + e.getMessage()); 
+//            System.out.println(e.getMessage());
         }
+        System.out.println("Table created successfully");
     }
 
     @Override
     public void salvar(Object bean) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        CPF cpf = (CPF)bean;
+
+        String sql = "INSERT INTO CPF(numcpf) VALUES(?)";
+ 
+        try (Connection c = ConexaoJDBC.getInstance();
+                PreparedStatement pstmt = c.prepareStatement(sql)) {
+            pstmt.setInt(1, cpf.getNumCPF());
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+        }
+        System.out.println("Records created successfully");
     }
 
     @Override
